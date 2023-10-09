@@ -40,7 +40,7 @@ def download_mp3_with_cover(url):
     return new_mp3_filename, cover_filename
 
 # Ссылка на плейлист
-p = Playlist('https://www.youtube.com/playlist?list=PLypgEr3CybfCXZWERx0Jft4yV7fEmivKc')
+p = Playlist('')
 
 for url in p.video_urls:
     mp3_file, cover_file = download_mp3_with_cover(url)
